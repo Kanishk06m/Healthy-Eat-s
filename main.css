@@ -1,0 +1,63 @@
+/*color and image change here*/
+.main-container{ background: url(../images/bg.jpg); background-size: cover; height: 100vh; width: 100%; padding: 0px; margin: 0px; position: absolute; top: 0; bottom: 0;}
+	.masthead{ width:300px; height:100vh; position: fixed; top:0;left:-230px; bottom:0; background:#fff; transition:all .35s linear; }
+	.masthead.open{left:0;}
+	#overlay{ background:rgb(161, 196, 72 / 56%);position: absolute;left:0;right:0;top:0;bottom:0; }
+	.overlay-content{position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%); text-align: center;}
+  .biglogo {
+    width: 100px;
+    height: 100px;
+  }
+	.overlay-content h2{color: #fff; font-size:40px; margin-bottom:5px; margin-top:5px;}
+	.overlay-content h3{color:#fff; margin:0px; font-weight:normal;}
+	.overlay-content a{ color: #fff; background: rgb(161, 196, 72); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 11px; font-weight: bold;}
+    .humbutton { width: 40px; height: 45px; position: absolute; top: 50vh; right: 25px; margin: 50px auto; -webkit-transform: rotate(0); -moz-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer; transform: rotate( 90deg ); }
+	.humbutton span { display: block; position: absolute; height: 2px; width: 100%; background: #000; border-radius: 0; opacity: 1; left: 0; -webkit-transform: rotate(0); -moz-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
+	.humbutton span:nth-child(1) {top: 0;}
+
+.humbutton span:nth-child(2) {top: 12px;}
+
+.humbutton span:nth-child(3) {top: 24px;}
+body{ overflow-x:hidden;font-family: 'Didact Gothic', sans-serif; background:rgb(161 196 72 / 81%);  }
+.logo{float: right;margin-right: 25px; margin-top:15px;}
+.logo img{ width:30px; }
+.masthead.open .logo img{visibility:hidden; animation:all .35s linear;}
+.main-ul ul li a {
+    color: #121214;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .8s linear;
+    font-family: Quicksand,sans-serif;
+    font-weight: 500;
+}
+
+.main-ul ul li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+    list-style-type: none;
+}
+.main-ul{ width:75%; padding-top:20%; }
+.biglogo{    margin-left: 35px;margin-bottom: 20px;}
+
+
+.lr{ position: absolute;right:30px;top:15px;  list-style-type:none;}
+.lr li{ display:inline; }
+.lr li a{ color:#fff; text-decoration: none; }
+/*about page*/
+.left_part{ width:35%;float:left; padding-right:10%; }
+.register_form h1{ color:rgb(161 196 72); margin-top:0px; font-size:23px; }
+/*center align*/
+.container{ width:60%; margin:auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); }
+.loginbtn{display: block; width: 80px; float: right; background:rgb(161, 196, 72); padding: 5px; border-radius: 10px; text-align: center; color: #fff;}
+.registerbtn{ display: block; width: 80px; background:rgb(161, 196, 72); padding: 5px; border-radius: 10px; text-align: center; color: #fff;}
+input[type="text"]:focus{width: 100%; margin-bottom: 15px; height: 20px; border: none; border-bottom: 1px solid #000!important; background: transparent!important;}
+.left_part h4{ font-size:20px;margin:10px 0px;}
+.left_part{ color:#fff; padding-top:10%;  }
+input[type="text"]{width: 100%; margin-bottom: 15px; height: 20px; border: none; border-bottom: 1px solid #000; background: transparent;}
+.register_form{box-sizing: border-box; background:#f2f2f2; padding:30px;width:55%;float:left; border-radius:12% 0px 0px 12%;}
+/*about ends here*/
